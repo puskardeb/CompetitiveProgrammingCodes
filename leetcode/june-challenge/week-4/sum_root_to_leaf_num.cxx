@@ -11,8 +11,7 @@ public:
         if (root == nullptr) {
             return 0;
         }
-        if (root->left == nullptr &&
-                root->right == nullptr) {
+        if (root->left == nullptr && root->right == nullptr) {
             return s * 10 + root->val;
         }
         int left = recur(root->left, s * 10 + root->val);
