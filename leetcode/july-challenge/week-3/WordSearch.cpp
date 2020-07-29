@@ -1,11 +1,6 @@
 class Solution {
 public:
-	bool search(int r, 
-				int c, 
-				int idx, 
-				vector<vector<bool>>& visited, 
-				const string& word,
-				const vector<vector<char>>& board) {
+	bool search(int r, int c, int idx, vector<vector<bool>>& visited, const string& word, const vector<vector<char>>& board) {
 		if (idx == word.size()) {
 			return true;
 		}
