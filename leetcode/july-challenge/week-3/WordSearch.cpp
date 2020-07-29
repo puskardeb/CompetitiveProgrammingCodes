@@ -33,7 +33,7 @@ public:
 		return false;
 	}
 
-    bool exist(vector<vector<char>>& board, string word) {
+	bool exist(vector<vector<char>>& board, string word) {
 		int rows = board.size();
 		int cols = board[0].size();
 
