@@ -1,4 +1,4 @@
-/** Open addressing implementation */
+/** Resolution by chaining implementation */
 class MyHashSet {
     
     static class Set {
