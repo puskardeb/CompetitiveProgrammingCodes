@@ -1,9 +1,9 @@
-public class Subsets {
+public class IteratorForCombination {
     char[] str;
     List<String> outer;
     int idx;
 
-    public Subsets(String characters, int combinationLength) {
+    public IteratorForCombination(String characters, int combinationLength) {
         str = characters.toCharArray();
         outer = new ArrayList<>();
         idx = 0;
